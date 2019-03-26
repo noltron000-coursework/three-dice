@@ -1,6 +1,17 @@
 # Three Dice
 *Generate 3D dice rolls*
 
+Three Dice aims to ease 3D dice rolling in the web. It will render a 'dice tray' scene, and throw inputted 3D dice into it. The resulting numbers can be random or pregenerated.
+
+## Usage
+The module utilizes classes to simplify your web dice needs.
+```js
+// this is psuedocode at the moment
+import * as ThreeDice from 'three-dice'
+const Scene = new ThreeDice.Tray
+Scene.roll('1d6')
+```
+
 ## Dependancies
 
 ### Three.js
